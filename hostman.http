@@ -1,0 +1,25 @@
+# GET http://localhost:3000/users HTTP/1.1
+
+
+# POST http://localhost:3000/users HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "username": "trosca",
+#     "password": "opewiki3",
+#     "email": "sasaa@gmail.com"
+# }
+
+# PUT http://localhost:3000/users/8 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "username": "Otro",
+#     "password": "101010",
+#     "email": "dsdsdsds@hotmail.com"
+# }
+
+DELETE http://localhost:3000/users/1 HTTP/1.1
+
+
+
